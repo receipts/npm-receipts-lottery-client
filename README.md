@@ -1,6 +1,8 @@
 # receipts-lottery-client
 [![npm version](https://badge.fury.io/js/receipts-lottery-client.svg)](https://badge.fury.io/js/receipts-lottery-client)
 [![bitHound Score](https://www.bithound.io/github/receipts/npm-receipts-lottery-client/badges/score.svg)](https://www.bithound.io/github/receipts/npm-receipts-lottery-client)
+[![Coverage Status](https://coveralls.io/repos/receipts/npm-receipts-lottery-client/badge.svg?branch=master&service=github)](https://coveralls.io/github/receipts/npm-receipts-lottery-client?branch=master)
+[![Build Status](https://travis-ci.org/receipts/npm-receipts-lottery-client.svg)](https://travis-ci.org/receipts/npm-receipts-lottery-client)
 [![Dependency Status](https://david-dm.org/receipts/npm-receipts-lottery-client.svg)](https://david-dm.org/receipts/npm-receipts-lottery-client)
 [![devDependency Status](https://david-dm.org/receipts/npm-receipts-lottery-client/dev-status.svg)](https://david-dm.org/receipts/npm-receipts-lottery-client#info=devDependencies)
 
