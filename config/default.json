@@ -1,0 +1,28 @@
+{
+  "form": {
+    "url": "https://",
+    "postUrlHost": "",
+    "postUrlRegex": "",
+    "timeout": 5000,
+    "headers": {
+      "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "User-Agent": "",
+      "Origin": "",
+      "Referer": "",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "fields": [
+    ]
+  },
+  "captcha": {
+    "url": "",
+    "timeout": 5000,
+    "headers": {
+      "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "User-Agent": "",
+      "Origin": "",
+      "Referer": "",
+      "X-Requested-With": "XMLHttpRequest"
+    }
+  }
+}

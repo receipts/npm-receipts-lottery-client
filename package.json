@@ -1,0 +1,48 @@
+{
+  "name": "receipts-lottery-client",
+  "version": "0.5.0",
+  "description": "Receipts lottery client",
+  "main": "./index.js",
+  "dependencies": {
+    "assert-plus": "^0.1.5",
+    "moment-timezone": "^0.4.1",
+    "request": "^2.65.0",
+    "receipts-model": "0.5.1",
+    "winston": "^1.1.2",
+    "winston-loggly": "^1.2.0"
+  },
+  "devDependencies": {
+    "config": "^1.16.0",
+    "chai": "^3.4.0",
+    "istanbul": "^0.4.0",
+    "mocha": "^2.3.3"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "mocha --recursive test",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --recursive test",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/receipts/npm-receipts-lottery-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/receipts/npm-receipts-lottery-client/issues"
+  },
+  "keywords": [
+    "receipts"
+  ],
+  "author": {
+    "name": "Zenedith",
+    "email": "zenedith@wp.pl"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/receipts/npm-receipts-lottery-client",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "readmeFilename": "README.md",
+  "_id": "receipts-lottery-client@0.5.0",
+  "_from": "receipts-lottery-client@^0.5.0"
+}
