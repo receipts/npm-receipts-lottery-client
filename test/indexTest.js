@@ -3,14 +3,19 @@ var options = require('config');
 var chai = require('chai');
 var should = chai.should();
 
-var body = '';
-
 describe('index test', function () {
 
-  it('should export lotteryTicket', function (done) {
+  it('should export authorizeUser', function (done) {
 
-    var lotteryTicket = index.lotteryTicket;
-    should.exist(lotteryTicket);
+    var authorizeUser = index.authorizeUser;
+    should.exist(authorizeUser);
+    done();
+  });
+
+  it('should export sendLotteryTicket', function (done) {
+
+    var sendLotteryTicket = index.sendLotteryTicket;
+    should.exist(sendLotteryTicket);
     done();
   });
 
