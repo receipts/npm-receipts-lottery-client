@@ -19,6 +19,13 @@ describe('index test', function () {
     done();
   });
 
+  it('should export getTickets', function (done) {
+
+    var getTickets = index.getTickets;
+    should.exist(getTickets);
+    done();
+  });
+
   it('should export meta version', function (done) {
 
     var version = index.VERSION;
