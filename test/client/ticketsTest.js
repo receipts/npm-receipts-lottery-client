@@ -29,7 +29,8 @@ describe('tickets client test', function () {
 
     ticketsClient.sendLotteryTicket(ticketRequest, options, function (err, body) {
       //console.log(err, body);
-      expect(body).to.be.not.null;
+      expect(err).to.be.null;
+      expect(body).to.be.not.undefined;
       done();
     });
   });

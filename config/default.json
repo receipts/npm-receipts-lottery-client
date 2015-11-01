@@ -30,6 +30,15 @@
       "X-Requested-With": "XMLHttpRequest"
     }
   },
+  "account-request": {
+    "url": "https://",
+    "timeout": 5000,
+    "headers": {
+      "User-Agent": "",
+      "Origin": "",
+      "Referer": ""
+    }
+  },
   "captcha-request": {
     "url": "",
     "timeout": 5000,

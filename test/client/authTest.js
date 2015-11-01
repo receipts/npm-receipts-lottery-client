@@ -15,7 +15,7 @@ describe('auth client test', function () {
 
     authClient.authorizeUser(authRequest, options, function (err, jar) {
       //console.log(err);
-      expect(err).to.be.not.null;
+      expect(err).to.be.not.undefined;
       expect(jar).to.be.undefined;
       done();
     });
