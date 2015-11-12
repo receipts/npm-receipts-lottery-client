@@ -1,6 +1,6 @@
 {
   "name": "receipts-lottery-client",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "description": "Receipts lottery client",
   "main": "./index.js",
   "dependencies": {
@@ -45,6 +45,6 @@
     "node": ">=0.10.0"
   },
   "readmeFilename": "README.md",
-  "_id": "receipts-lottery-client@0.5.5",
-  "_from": "receipts-lottery-client@^0.5.5"
+  "_id": "receipts-lottery-client@0.5.6",
+  "_from": "receipts-lottery-client@^0.5.6"
 }
