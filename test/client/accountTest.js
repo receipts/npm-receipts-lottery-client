@@ -20,7 +20,7 @@ describe('account client test', function () {
   //    accountClient.getTickets(jar, options, function (err, collection) {
   //      console.log(collection);
   //      expect(err).to.be.not.undefined;
-  //      expect(collection).to.be.undefined;
+  //      expect(collection).to.be.not.empty;
   //      done();
   //    });
   //  });
