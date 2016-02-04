@@ -54,6 +54,15 @@
       "upgrade-insecure-requests": "1"
     }
   },
+  "results-request": {
+    "url": "https://loteriaparagonowa.gov.pl/wyniki",
+    "timeout": 5000,
+    "headers": {
+      "User-Agent": "loteriaparagonowa",
+      "Origin": "loteriaparagonowa",
+      "Referer": "loteriaparagonowa"
+    }
+  },
   "captcha-request": {
     "url": "https://loteriaparagonowa.gov.pl/validation/captcha",
     "timeout": 5000,
