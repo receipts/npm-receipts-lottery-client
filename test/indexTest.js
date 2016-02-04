@@ -26,6 +26,13 @@ describe('index test', function () {
     done();
   });
 
+  it('should export getResults', function (done) {
+
+    var getResults = index.getResults;
+    should.exist(getResults);
+    done();
+  });
+
   it('should export meta version', function (done) {
 
     var version = index.VERSION;
