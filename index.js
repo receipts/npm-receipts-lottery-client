@@ -1,6 +1,6 @@
 var meta = require('./lib/meta');
 var logger = require('./lib/logger/logger').logger;
-var ticketsClient = require('./lib/client/tickets');
+var ticketsClient = require('./lib/client/createTicket');
 var accountClient = require('./lib/client/account');
 var resultsClient = require('./lib/client/results');
 var authClient = require('./lib/client/auth');

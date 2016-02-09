@@ -1,5 +1,5 @@
 var options = require('config');
-var ticketsClient = require('../../lib/client/tickets');
+var ticketsClient = require('../../lib/client/createTicket');
 var chai = require('chai');
 var should = chai.should();
 var expect = chai.expect;
