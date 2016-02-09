@@ -4,9 +4,9 @@ var chai = require('chai');
 var should = chai.should();
 var expect = chai.expect;
 
-describe('tickets client test', function () {
+describe('create ticket client test', function () {
 
-  it('should send lottery ticket', function (done) {
+  it('should create lottery ticket', function (done) {
 
     var ticketRequest = {
       pointOfSale: "ban1002399111",

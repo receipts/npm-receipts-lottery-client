@@ -9,7 +9,7 @@
       "X-Requested-With": "XMLHttpRequest"
     }
   },
-  "tickets-request": {
+  "create-ticket-request": {
     "url": "https://loteriaparagonowa.gov.pl/paragon/stworz",
     "timeout": 5000,
     "headers": {
@@ -18,21 +18,19 @@
       "Origin": "loteriaparagonowa",
       "Referer": "loteriaparagonowa",
       "X-Requested-With": "XMLHttpRequest"
-    },
-    "fields": [
-      {
-        "fieldName": "x-csrf-token",
-        "fieldRegex": "/name=\"_token\" id=\"csrf-token\" value=\"(.+?)\"/g",
-        "fieldDefaultValue": null,
-        "createReceiptRequestField": null
-      },
-      {
-        "fieldName": "captcha",
-        "fieldRegex": "/Zadanie matematyczne: (.+?) daje:/g",
-        "fieldDefaultValue": null,
-        "createReceiptRequestField": null
-      }
-    ]
+    }
+  },
+  "update-ticket-request": {
+    "url": "https://loteriaparagonowa.gov.pl/paragon/edytuj",
+    "timeout": 5000,
+    "headers": {
+      "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "User-Agent": "loteriaparagonowa",
+      "Origin": "loteriaparagonowa",
+      "Referer": "loteriaparagonowa",
+      "X-Requested-With": "XMLHttpRequest",
+      "authority": "loteriaparagonowa.gov.pl"
+    }
   },
   "auth-request": {
     "url": "https://loteriaparagonowa.gov.pl/auth/login",
