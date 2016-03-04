@@ -32,6 +32,17 @@
       "authority": "loteriaparagonowa.gov.pl"
     }
   },
+  "get-ticket-request": {
+    "url": "https://loteriaparagonowa.gov.pl/paragon/edytuj",
+    "timeout": 5000,
+    "headers": {
+      "User-Agent": "loteriaparagonowa",
+      "Origin": "loteriaparagonowa",
+      "Referer": "loteriaparagonowa",
+      "X-Requested-With": "XMLHttpRequest",
+      "authority": "loteriaparagonowa.gov.pl"
+    }
+  },
   "auth-request": {
     "url": "https://loteriaparagonowa.gov.pl/auth/login",
     "timeout": 5000,

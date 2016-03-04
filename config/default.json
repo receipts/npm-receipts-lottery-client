@@ -30,6 +30,16 @@
       "X-Requested-With": "XMLHttpRequest"
     }
   },
+  "get-ticket-request": {
+    "url": "https://",
+    "timeout": 5000,
+    "headers": {
+      "User-Agent": "",
+      "Origin": "",
+      "Referer": "",
+      "X-Requested-With": "XMLHttpRequest"
+    }
+  },
   "auth-request": {
     "url": "https://",
     "timeout": 5000,

@@ -9,16 +9,16 @@ describe('create ticket client test', function () {
   it('should create lottery ticket', function (done) {
 
     var ticketRequest = {
-      pointOfSale: "ban1002399111",
-      purchaseOrderNumber: "073011",
+      pointOfSale: "ban1102399111",
+      purchaseOrderNumber: "013011",
       taxRegistrationNumber: "8542174261",
       phone: "123456789",
-      date: "2015-11-02T00:00:00Z",
+      date: "2016-03-02T00:00:00Z",
       amount: {
         value: "1234.56",
         currency: "PLN"
       },
-      trade: "",
+      trade: "HAIRDRESSING",
       email: "zzz@wp.pl",
       agreements: {
         termsOfService: true,
