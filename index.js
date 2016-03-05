@@ -23,8 +23,8 @@ var getTickets = function getTickets(jar, options, callback) {
   return accountClient.getTickets(jar, options, callback);
 };
 
-var updateLotteryTicket = function updateLotteryTicket(jar, id, options, callback) {
-  return updateTicketClient.updateLotteryTicket(jar, id, options, callback);
+var updateLotteryTicket = function updateLotteryTicket(jar, id, updateTicketRequest, options, callback) {
+  return updateTicketClient.updateLotteryTicket(jar, id, updateTicketRequest, options, callback);
 };
 
 var getLotteryTicket = function getLotteryTicket(jar, id, options, callback) {
