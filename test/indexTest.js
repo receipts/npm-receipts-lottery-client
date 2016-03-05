@@ -19,6 +19,13 @@ describe('index test', function () {
     done();
   });
 
+  it('should export getResults', function (done) {
+
+    var getResults = index.getResults;
+    should.exist(getResults);
+    done();
+  });
+
   it('should export getTickets', function (done) {
 
     var getTickets = index.getTickets;
@@ -26,10 +33,17 @@ describe('index test', function () {
     done();
   });
 
-  it('should export getResults', function (done) {
+  it('should export updateLotteryTicket', function (done) {
 
-    var getResults = index.getResults;
-    should.exist(getResults);
+    var updateLotteryTicket = index.updateLotteryTicket;
+    should.exist(updateLotteryTicket);
+    done();
+  });
+
+  it('should export getLotteryTicket', function (done) {
+
+    var getLotteryTicket = index.getLotteryTicket;
+    should.exist(getLotteryTicket);
     done();
   });
 
@@ -39,4 +53,5 @@ describe('index test', function () {
     should.exist(version);
     done();
   });
+
 });

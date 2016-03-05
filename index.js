@@ -1,6 +1,8 @@
 var meta = require('./lib/meta');
 var logger = require('./lib/logger/logger').logger;
-var ticketsClient = require('./lib/client/tickets');
+var ticketsClient = require('./lib/client/createTicket');
+var updateTicketClient = require('./lib/client/updateTicket');
+var getTicketClient = require('./lib/client/getTicket');
 var accountClient = require('./lib/client/account');
 var resultsClient = require('./lib/client/results');
 var authClient = require('./lib/client/auth');
@@ -21,10 +23,20 @@ var getTickets = function getTickets(jar, options, callback) {
   return accountClient.getTickets(jar, options, callback);
 };
 
+var updateLotteryTicket = function updateLotteryTicket(jar, id, options, callback) {
+  return updateTicketClient.updateLotteryTicket(jar, id, options, callback);
+};
+
+var getLotteryTicket = function getLotteryTicket(jar, id, options, callback) {
+  return getTicketClient.getLotteryTicket(jar, id, options, callback);
+};
+
 module.exports = {
   VERSION: meta.VERSION,
   authorizeUser: authorizeUser,
   sendLotteryTicket: sendLotteryTicket,
   getResults: getResults,
-  getTickets: getTickets
+  getTickets: getTickets,
+  updateLotteryTicket: updateLotteryTicket,
+  getLotteryTicket: getLotteryTicket
 };
