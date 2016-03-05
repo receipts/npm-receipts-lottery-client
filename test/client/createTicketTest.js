@@ -28,7 +28,7 @@ describe('create ticket client test', function () {
     };
 
     ticketsClient.sendLotteryTicket(ticketRequest, options, function (err, data) {
-      console.log(err, data);
+      //console.log(err, data);
       //expect(err).to.be.null;
       //expect(data).to.be.not.undefined;
       done();
