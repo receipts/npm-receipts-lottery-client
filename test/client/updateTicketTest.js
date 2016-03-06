@@ -1,15 +1,15 @@
-var options = require("config");
-var updateTicketClient = require("../../lib/client/updateTicket");
-var authClient = require("../../lib/client/auth");
-var chai = require("chai");
+var options = require('config');
+var updateTicketClient = require('../../lib/client/updateTicket');
+var authClient = require('../../lib/client/auth');
+var chai = require('chai');
 var should = chai.should();
 var expect = chai.expect;
 
-describe("update ticket client test", function () {
+describe('update ticket client test', function () {
 
-  it("should update lottery ticket", function (done) {
+  it('should update lottery ticket', function (done) {
 
-    var id = "56db6006142877ae4d8bd1d5";
+    var id = '56db6006142877ae4d8bd1d5';
 
     var updateTicketRequest = {
       id: "56db6006142877ae4d8bd1d5",
