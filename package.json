@@ -7,17 +7,17 @@
     "assert-plus": "1.0.0",
     "async": "1.5.2",
     "cheerio": "0.20.0",
-    "moment-timezone": "0.5.1",
-    "receipts-model": "1.3.0",
-    "request": "2.69.0",
+    "moment-timezone": "0.5.4",
+    "receipts-model": "1.4.0",
+    "request": "2.72.0",
     "winston": "2.2.0",
     "winston-loggly": "1.3.1"
   },
   "devDependencies": {
-    "config": "1.19.0",
     "chai": "3.5.0",
-    "istanbul": "0.4.2",
-    "mocha": "2.4.5"
+    "config": "1.20.4",
+    "istanbul": "0.4.3",
+    "mocha": "2.5.3"
   },
   "scripts": {
     "prepublish": "npm prune",
