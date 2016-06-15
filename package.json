@@ -21,9 +21,9 @@
   },
   "scripts": {
     "prepublish": "npm prune",
-    "test": "mocha --recursive test -t 5000",
-    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --recursive -t 5000 test",
-    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --recursive -t 5000 test"
+    "test": "mocha --recursive test -t 15000",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --recursive -t 15000 test",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --recursive -t 15000 test"
   },
   "repository": {
     "type": "git",
@@ -42,7 +42,7 @@
   "license": "MIT",
   "homepage": "https://github.com/receipts/npm-receipts-lottery-client",
   "engines": {
-    "node": ">=5.6.0"
+    "node": ">=6.2.1"
   },
   "readmeFilename": "README.md",
   "_id": "receipts-lottery-client@1.2.1",
