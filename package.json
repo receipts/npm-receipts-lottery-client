@@ -9,7 +9,7 @@
     "cheerio": "0.20.0",
     "moment-timezone": "0.5.4",
     "receipts-model": "1.5.0",
-    "request": "2.72.0",
+    "request": "2.73.0",
     "winston": "2.2.0",
     "winston-loggly": "1.3.1"
   },
