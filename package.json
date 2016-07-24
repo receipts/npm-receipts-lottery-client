@@ -1,15 +1,15 @@
 {
   "name": "receipts-lottery-client",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Receipts lottery client",
   "main": "./index.js",
   "dependencies": {
     "assert-plus": "1.0.0",
-    "async": "1.5.2",
+    "async": "2.0.1",
     "cheerio": "0.20.0",
     "moment-timezone": "0.5.4",
-    "receipts-model": "1.5.0",
-    "request": "2.73.0",
+    "receipts-model": "1.5.1",
+    "request": "2.74.0",
     "winston": "2.2.0",
     "winston-loggly": "1.3.1"
   },
