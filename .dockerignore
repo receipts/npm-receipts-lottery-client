@@ -1,0 +1,11 @@
+.git
+node_modules
+#config/runtime.json
+config/runtimes.json
+functionalTest
+test
+coverage
+*.iml
+*.ipr
+*.iws
+.idea

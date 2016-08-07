@@ -3,7 +3,7 @@
   "bitwise":    false,
   "asi":        false,
   "browser":    false,
-  "camelcase":  false,
+  "camelcase":  true,
   "curly":      true,
   "devel":      false,
   "enforceall": true,
@@ -33,5 +33,6 @@
   "undef":      true,
   "unused":     true,
   "maxlen":     140,
-  "latedef":    true
+  "latedef":    true,
+  "globals": { "JSON": true }
 }

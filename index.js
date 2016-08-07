@@ -1,5 +1,6 @@
+'use strict';
+
 var meta = require('./lib/meta');
-var logger = require('./lib/logger/logger').logger;
 var ticketsClient = require('./lib/client/createTicket');
 var updateTicketClient = require('./lib/client/updateTicket');
 var getTicketClient = require('./lib/client/getTicket');
