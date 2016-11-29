@@ -1,6 +1,6 @@
 {
   "name": "receipts-lottery-client",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Receipts lottery client",
   "main": "./index.js",
   "dependencies": {
@@ -42,9 +42,9 @@
   "license": "MIT",
   "homepage": "https://github.com/receipts/npm-receipts-lottery-client",
   "engines": {
-    "node": ">=6.7.0"
+    "node": ">=7.2.0"
   },
   "readmeFilename": "README.md",
-  "_id": "receipts-lottery-client@1.4.0",
-  "_from": "receipts-lottery-client@^1.4.0"
+  "_id": "receipts-lottery-client@1.5.0",
+  "_from": "receipts-lottery-client@^1.5.0"
 }
