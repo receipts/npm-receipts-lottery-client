@@ -5,9 +5,9 @@
   "main": "./index.js",
   "dependencies": {
     "assert-plus": "1.0.0",
-    "async": "2.2.0",
+    "async": "2.3.0",
     "cheerio": "0.22.0",
-    "moment-timezone": "0.5.11",
+    "moment-timezone": "0.5.13",
     "receipts-model": "^1.8.0",
     "request": "2.81.0",
     "winston": "2.3.1",
