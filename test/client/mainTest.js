@@ -21,7 +21,7 @@ describe('main client test', function () {
   it('should getMainPageData', function (done) {
 
     mainClient.getMainPageData(jar, options, function (err, data) {
-      //console.log(err, body);
+      // console.log(err, data);
       expect(data).to.be.not.null;
       expect(data.url).to.be.not.null;
       expect(data.token).to.be.not.null;

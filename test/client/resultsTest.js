@@ -10,8 +10,8 @@ describe('results client test', function () {
 
     resultsClient.getResults(options, function (err, collection) {
       //console.log(err, collection);
-      expect(err).to.be.not.undefined;
-      expect(collection).to.be.not.empty;
+      expect(err).to.not.be.an('undefined');
+      expect(collection).to.be.an('array').that.is.not.empty;
       done();
     });
   });
